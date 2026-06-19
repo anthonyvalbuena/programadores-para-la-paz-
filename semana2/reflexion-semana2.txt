@@ -1,0 +1,1 @@
+Saber usar la terminal es fundamental porque permite automatizar tareas y gestionar archivos con mayor rapidez y eficiencia que una interfaz gráfica. Además, es indispensable para interactuar con herramientas esenciales de desarrollo (como Git) y para administrar servidores remotos en la nube, los cuales no cuentan con entornos visuales.
