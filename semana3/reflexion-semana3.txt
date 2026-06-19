@@ -1,0 +1,1 @@
+Mantener un registro de cambios con Git es vital porque funciona como una máquina del tiempo que permite revertir el código si algo falla, facilita el trabajo en equipo sin borrar el código de otros, ayuda a rastrear el origen de los errores rápidamente y sirve como un respaldo seguro en la nube.
