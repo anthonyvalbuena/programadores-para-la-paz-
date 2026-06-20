@@ -1,0 +1,5 @@
+Mantener el software actualizado.
+Realizar copias de seguridad periódicas.
+Activar la autenticación en dos pasos.
+No abrir enlaces o archivos sospechosos.
+Cerrar sesión en equipos compartidos.

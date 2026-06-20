@@ -1,0 +1,2 @@
+1. Cada comando muestra informacion diferente del sistema, como el nombre del equipo, la version del sistema operativo, el uso de memoria o los procesos en ejecucion.
+2. Conocer la informacion del sistema es util para administrar un servidor, ya que permite monitorear recursos, detectar problemas y mantener un funcionamiento seguro y eficiente.

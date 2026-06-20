@@ -1,0 +1,3 @@
+echo "1. Utilizar contraseñas seguras y únicas" > buenas-practicas.txt
+echo "2. Activar la autenticacion en dos pasos" >> buenas-practicas.txt
+echo "3. No compartir credenciales con otras personas" >> buenas-practicas.txt
