@@ -1,0 +1,13 @@
+Descripción de las rutas del servidor (Pruebas de la Semana 3):
+
+http://localhost:3000
+
+Qué ocurre: Es la ruta raíz de la aplicación (el "home" o "/"). Cuando se accede a ella, el servidor responde con un mensaje general de bienvenida (como un "Hola Mundo" o "Servidor corriendo") que sirve para confirmar que el servidor de Express está activo y escuchando en el puerto 3000.
+
+http://localhost:3000/saludo
+
+Qué ocurre: Es una ruta estática específica (/saludo). Al ingresar, el servidor ejecuta la función asociada y devuelve un saludo fijo o predeterminado para el usuario, confirmando que la navegación por rutas específicas funciona de forma correcta.
+
+http://localhost:3000/mensaje/juan
+
+Qué ocurre: Es una ruta dinámica que utiliza un parámetro en la URL (por ejemplo, "/mensaje/:nombre"). El servidor toma el valor del final ("juan") a través de "req.params.nombre" y lo procesa para devolver un mensaje personalizado e interactivo que incluye el nombre enviado dinámicamente en la respuesta.
