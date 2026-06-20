@@ -1,0 +1,2 @@
+Qué sucede en el servidor cuando se consulta esta ruta:
+Cuando realizamos una petición de tipo GET a "http://localhost:3000/reportes", el servidor recibe la solicitud y busca en su memoria la lista (array) donde tiene almacenados todos los reportes que los ciudadanos han registrado previamente (como el de "Daño en alumbrado público"). El servidor toma esta lista, la convierte a formato JSON y la envía de vuelta como respuesta al cliente de forma ordenada.
