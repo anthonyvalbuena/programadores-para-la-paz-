@@ -1,0 +1,3 @@
+Es importante porque les da autonomía e independencia tecnológica; al usar tecnologías abiertas y gratuitas como Node.js, las comunidades no dependen de empresas privadas ni de licencias costosas.
+
+Además, les permite adaptar las herramientas exactamente a sus necesidades locales, protegiendo la privacidad de sus datos y garantizando que el conocimiento creado sea libre, comunitario y fácil de mantener en el tiempo.
