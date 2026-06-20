@@ -1,0 +1,24 @@
+Explicación del funcionamiento de la API de Registro (Semana 6)
+
+Qué hace la ruta POST '/registro' en el servidor:
+Esta ruta está diseñada para escuchar peticiones de tipo POST en la dirección 'http://localhost:3000/registro'. Su función principal es recibir información que un usuario envía de forma externa (por ejemplo, desde un formulario o una aplicación como Thunder Client) y procesarla en el servidor. Gracias a la línea 'app.use(express.json())', el servidor es capaz de entender los datos estructurados en formato JSON.
+
+Qué ocurre cuando se envía la petición de prueba:
+Cuando enviamos un objeto JSON con el nombre de "Maria" y el mensaje "Hola comunidad" a través de un cliente de pruebas, el servidor realiza los siguientes pasos:
+
+Recibe la solicitud HTTP con el cuerpo (body) de la petición.
+
+Extrae el nombre usando 'req.body.nombre' y el mensaje con 'req.body.mensaje' para guardarlos en constantes internas del código.
+
+Procesa la información y construye una respuesta en formato JSON utilizando 'res.json()'.
+
+Qué respuesta devuelve el servidor y por qué:
+La respuesta devuelta por el servidor es un objeto JSON estructurado de la siguiente forma:
+
+{
+"estado": "Datos recibidos",
+"nombre": "Maria",
+"mensaje": "Hola comunidad"
+}
+
+Devuelve esta respuesta porque el código de la ruta está programado para confirmar el éxito del proceso con la propiedad '"estado": "Datos recibidos"' y, al mismo tiempo, hacer un "eco" o espejo de los datos que le enviamos originalmente para que podamos verificar en el cliente que el servidor leyó la información correctamente.

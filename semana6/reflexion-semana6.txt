@@ -1,0 +1,5 @@
+Tipo de problema: Falla en el alumbrado público (iluminación).
+
+Situación: Una lámpara del parque está dañada desde hace días, lo que deja esa zona completamente a oscuras durante la noche.
+
+Este formato JSON ayuda a que el sistema de la comunidad sepa de inmediato de qué se trata el reporte (iluminación) y cuál es el problema específico (la lámpara del parque) de forma rápida y organizada.
